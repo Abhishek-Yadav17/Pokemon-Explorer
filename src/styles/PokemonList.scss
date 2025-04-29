@@ -1,0 +1,53 @@
+.pokemon-loading {
+    height: 86.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 700px) {
+        height: 80vh;
+    }
+
+    @media (max-width: 400px) {
+        height: 70vh;
+    }
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 86.8vh;
+}
+
+.pokemon-not-found {
+    height: 86.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+
+    @media (max-width: 700px) {
+        font-size: 4vw;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 5vw;
+    }
+
+    img {
+        height: 4vw;
+        width: 12vw;
+        margin: 1vw;
+
+        @media (max-width: 700px) {
+            height: 10vw;
+            width: 26vw;
+        }
+
+        @media (max-width: 400px) {
+            height: 10vw;
+            width: 25vw;
+        }
+    }
+}
